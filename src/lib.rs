@@ -1,4 +1,7 @@
 pub mod input;
 
 mod day;
-use day::Day;
+pub use day::Day;
+pub(crate) mod output;
+
+pub mod days;
